@@ -1,0 +1,164 @@
+body{
+
+
+    
+}
+
+header{
+text-align: center;
+    
+}
+
+.bottonright{
+
+    display: inline;
+    margin: 0px 0px 0px 320px;
+}
+
+
+nav li{
+    display: inline;
+    margin: 0 0 0 10px;
+    align-items:unset;
+    }
+    
+nav a {
+    font-size: 22px;
+    text-decoration:none;
+    font-family:Cooper Black;
+    color:rgba(7, 87, 167, 0.966);
+    }
+
+button{
+
+        background-color: rgb(247, 222, 0);
+        font-family:Cooper Black;
+        color:rgba(7, 87, 167, 0.966);
+        font-size: 22px;
+        border-color: gray;
+        transition-duration: 0.4s;
+        border-radius: 8px;
+        border: 3px solid rgba(7, 87, 167, 0.966);
+        }
+        button:hover{
+        background-color:rgba(7, 87, 167, 0.966);
+        color: rgb(247, 222, 0);
+        }
+
+
+
+p{
+
+    text-align: center;
+    margin-top: 180px;
+    font-size: 55px;
+
+
+}
+
+
+.ambiente{
+
+    margin-top: 180px;
+    text-align: center;
+
+
+
+}
+
+h1{
+
+text-align: center;
+margin-top: 10%;
+
+}
+
+.localizacao{
+margin-top: 10%;
+text-align: center;
+
+
+
+}
+
+
+.faleconosco{
+    margin-top: 10%;
+
+
+}
+
+  
+
+
+form {
+  
+    margin: 10% auto;
+    width: 450px;
+    padding: 1em;
+    border: 5px solid rgba(7, 87, 167, 0.966);;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 2em;
+}
+
+label {
+    
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+}
+
+input, textarea {
+
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid rgb(7, 87,167,0.966 );
+}
+
+
+
+
+footer{
+text-align: center;
+margin: auto;
+background-color: rgba(7, 87, 167, 0.966);
+                 
+        }
+            
+        }
+
+        .btn{
+            background: #e52325;
+            border: none;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+        
+        
+        .flash{
+            animation-name: flash;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes flash {
+            0%{
+                background: #e52325;
+                padding: 5px 10px;
+            }
+        50%{
+            background: #660002;
+            padding: 10px 15px;
+        }
+        100%{
+            background: #e52325;
+            padding: 5px 10px;
+          }
+        
+        }
